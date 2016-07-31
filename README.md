@@ -4,7 +4,7 @@ A quick share to simplify the process of sharing files, by deploying a
 minimalistic server.
 
 At this stage, it is the example from
-(serve-index)[https://github.com/expressjs/serve-index].
+[serve-index](https://github.com/expressjs/serve-index).
 
 
 Usage:
