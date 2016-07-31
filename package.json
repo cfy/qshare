@@ -1,0 +1,20 @@
+{
+  "name": "qshare",
+  "version": "1.0.0",
+  "description": "Quickshare style app implemented in nodejs",
+  "main": "app.js",
+  "bin": "./bin/qshare",
+  "keywords": [
+    "share",
+    "simple",
+    "node",
+    "js"
+  ],
+  "author": "cfy <1337machado@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "serve-index": "^1.8.0",
+    "serve-static": "^1.11.1"
+  }
+}
