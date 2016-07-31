@@ -1,6 +1,6 @@
 {
   "name": "qshare",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Quickshare style app implemented in nodejs",
   "main": "app.js",
   "engines": {
