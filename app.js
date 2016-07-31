@@ -14,6 +14,7 @@
             app = express();
 
         port = port || 1337;
+        folder = folder || '.';
         dir = folder.charAt(0) === '/' ? folder :
                                        path.resolve(process.cwd(), folder);
 
