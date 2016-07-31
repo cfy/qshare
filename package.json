@@ -1,9 +1,14 @@
 {
   "name": "qshare",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Quickshare style app implemented in nodejs",
   "main": "app.js",
-  "bin": "./bin/qshare",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "bin": {
+    "qshare": "./bin/qshare.js"
+  },
   "keywords": [
     "share",
     "simple",
@@ -14,7 +19,20 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.14.0",
+    "morgan": "^1.7.0",
     "serve-index": "^1.8.0",
     "serve-static": "^1.11.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfy/qshare.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cfy/qshare/issues"
+  },
+  "homepage": "https://github.com/cfy/qshare#readme"
 }
